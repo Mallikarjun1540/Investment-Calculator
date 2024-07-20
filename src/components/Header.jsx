@@ -1,8 +1,9 @@
-export default function Header(){
-    return(
-        <div id="header"> 
-        <img src="src\assets\investment-calculator-logo.png" alt="" />
-        <h1>Investment Calculator</h1>
-        </div>
-    )
+import logo from '../assets/investment-calculator-logo.png';
+export default function Header() {
+  return (
+    <div id="header">
+      <img src={logo} alt="logo displaying investment Bag" />
+      <h1>Investment Calculator</h1>
+    </div>
+  );
 }
