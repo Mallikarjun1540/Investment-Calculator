@@ -12,7 +12,7 @@ export default function User_Inputs() {
             
         </div><br /><br />
         <div className="input-group">
-        <label>EXPECTED RETURN
+        <label>EXPECTED-RETURN
             <input type="number" />
             </label>
 
